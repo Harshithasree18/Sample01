@@ -15,7 +15,7 @@ public class DemoApplication {
     static class HealthController {
         @GetMapping("/")
         public String home() {
-            return "Application is running on Kubernetes!";
+            return "Application is running on Kubernetes!!";
         }
 
         @GetMapping("/health")
